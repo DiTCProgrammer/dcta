@@ -64,20 +64,20 @@
                         <div class="sub_page">
                             <?php
                             //include ('./views/home.php');
-                            // include ('./views/departments.php');
+                            //include ('./views/departments.php');
                             //include ('./views/personal_informations.php');
                             //include ('./views/personal_information.php');
                             //include ('./views/upload.php');
                             //include ('./views/delete.php');
                             //include ('./views/time_settings.php');
                             //include ('./views/setting_employee.php');
-                            //include ('./views/setting_company_profile.php');
+                            include ('./views/setting_company_profile.php');
                             //include ('./views/setting_department.php');
                             //include ('./views/setting_weekend.php');
                             //include ('./views/setting_weekend_department.php');
                             //include ('./views/setting_weekend_company.php');
                             //include ('./views/setting_holiday_menu.php');
-                            include ('./views/setting_holiday_absence.php');
+                            //include ('./views/setting_holiday_absence.php');
                             ?>
                         </div>
                     </div>
