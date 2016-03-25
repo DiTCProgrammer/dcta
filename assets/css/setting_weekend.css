@@ -1,0 +1,71 @@
+div.weekend {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 100px; }
+  div.weekend h1.title {
+    text-align: center;
+    margin: 0;
+    color: #000;
+    font-size: 2em;
+    padding: 50px 0 20px;
+    position: relative;
+    margin-bottom: 36px; }
+  div.weekend h1.title:after {
+    content: '';
+    width: 60%;
+    height: 1px;
+    background: #dcdcdc;
+    position: absolute;
+    bottom: 0;
+    left: 20%; }
+  div.weekend h2.title {
+    margin: 0;
+    padding: 0 0 0 90px;
+    color: #000;
+    font-size: 1.5em;
+    margin-bottom: 40px; }
+    div.weekend h2.title img {
+      float: left;
+      max-width: 50px;
+      max-height: 40px;
+      display: block;
+      margin-right: 16px; }
+    div.weekend h2.title label {
+      font-weight: normal;
+      margin-top: 15px;
+      margin-bottom: 0; }
+  div.weekend nav {
+    width: auto;
+    height: auto;
+    display: table;
+    margin: 0 auto;
+    overflow: hidden; }
+    div.weekend nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      height: auto;
+      overflow: hidden; }
+      div.weekend nav ul li {
+        float: left; }
+        div.weekend nav ul li a {
+          width: 244px;
+          height: 214px;
+          display: block;
+          color: #000;
+          cursor: pointer;
+          border: 1px solid #e2e2e2;
+          text-align: center;
+          padding: 40px 0;
+          margin: 50px 55px; }
+          div.weekend nav ul li a img {
+            max-width: 80px;
+            max-height: 80px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 30px; }
+        div.weekend nav ul li a:hover {
+          text-decoration: none; }
+
+/*# sourceMappingURL=setting_weekend.css.map */

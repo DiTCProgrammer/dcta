@@ -1,0 +1,158 @@
+div.holiday_absence {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 100px; }
+  div.holiday_absence h1.title {
+    text-align: center;
+    margin: 0;
+    color: #000;
+    font-size: 2em;
+    padding: 50px 0 20px;
+    position: relative;
+    margin-bottom: 36px; }
+  div.holiday_absence h1.title:after {
+    content: '';
+    width: 60%;
+    height: 1px;
+    background: #dcdcdc;
+    position: absolute;
+    bottom: 0;
+    left: 20%; }
+  div.holiday_absence h2.title {
+    margin: 0;
+    padding: 0 0 0 90px;
+    color: #000;
+    font-size: 1.5em;
+    margin-bottom: 40px; }
+    div.holiday_absence h2.title img {
+      float: left;
+      max-width: 50px;
+      max-height: 40px;
+      display: block;
+      margin-right: 16px; }
+    div.holiday_absence h2.title label {
+      font-weight: normal;
+      margin-top: 15px;
+      margin-bottom: 0; }
+  div.holiday_absence h3.title {
+    margin: 0;
+    padding: 0 0 0 90px;
+    color: #000;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+    margin-left: 56px; }
+    div.holiday_absence h3.title img {
+      float: left;
+      max-width: 50px;
+      max-height: 40px;
+      display: block;
+      margin-right: 16px; }
+    div.holiday_absence h3.title label {
+      font-weight: normal;
+      margin-top: 15px;
+      margin-bottom: 0; }
+  div.holiday_absence div.box_items {
+    width: 868px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto 30px;
+    border: 1px solid #e4e4e4; }
+    div.holiday_absence div.box_items table {
+      width: 100%;
+      height: auto; }
+      div.holiday_absence div.box_items table thead tr th {
+        background: #415d79;
+        color: #FFFFFF;
+        padding: 16px 0;
+        text-align: center;
+        border-right: 1px solid #dcdcdc; }
+      div.holiday_absence div.box_items table thead tr th:last-child {
+        border-right: none; }
+      div.holiday_absence div.box_items table tbody tr td {
+        height: 40px;
+        vertical-align: middle;
+        border-right: 1px solid #dcdcdc;
+        text-align: center; }
+        div.holiday_absence div.box_items table tbody tr td img {
+          max-width: 35px;
+          max-height: 35px;
+          display: block;
+          margin: 0 auto; }
+      div.holiday_absence div.box_items table tbody tr td:last-child {
+        border-right: none; }
+      div.holiday_absence div.box_items table tbody tr:hover {
+        cursor: pointer; }
+        div.holiday_absence div.box_items table tbody tr:hover td {
+          background: #ebf0f5 !important; }
+      div.holiday_absence div.box_items table tbody tr:nth-child(even) td {
+        background: #f9f9f9; }
+      div.holiday_absence div.box_items table tfoot tr td {
+        padding: 35px 0;
+        text-align: center; }
+        div.holiday_absence div.box_items table tfoot tr td div.pangnav {
+          display: table;
+          margin: 0 auto; }
+        div.holiday_absence div.box_items table tfoot tr td ul {
+          margin: 0;
+          float: left;
+          width: auto;
+          height: auto;
+          overflow: hidden;
+          list-style: none;
+          padding: 0; }
+          div.holiday_absence div.box_items table tfoot tr td ul li {
+            float: left; }
+            div.holiday_absence div.box_items table tfoot tr td ul li a {
+              width: 32px;
+              height: 32px;
+              display: block; }
+              div.holiday_absence div.box_items table tfoot tr td ul li a img {
+                max-width: 32px;
+                max-height: 32px;
+                display: block;
+                margin: 0 auto; }
+        div.holiday_absence div.box_items table tfoot tr td ul:first-child li, div.holiday_absence div.box_items table tfoot tr td ul:last-child li {
+          float: left; }
+          div.holiday_absence div.box_items table tfoot tr td ul:first-child li a, div.holiday_absence div.box_items table tfoot tr td ul:last-child li a {
+            width: 32px;
+            height: 32px;
+            display: block;
+            border-radius: 2px;
+            border: 1px solid #415d79;
+            padding-top: 7px; }
+            div.holiday_absence div.box_items table tfoot tr td ul:first-child li a img, div.holiday_absence div.box_items table tfoot tr td ul:last-child li a img {
+              max-width: 15px;
+              max-height: 15px;
+              display: block;
+              margin: 0 auto; }
+        div.holiday_absence div.box_items table tfoot tr td ul:first-child li:last-child a {
+          margin-left: 35px;
+          background: #2b9780;
+          padding-top: 9px;
+          border: 1px solid #2b9780; }
+          div.holiday_absence div.box_items table tfoot tr td ul:first-child li:last-child a img {
+            max-width: 12px;
+            max-height: 12px; }
+        div.holiday_absence div.box_items table tfoot tr td ul:nth-child(2) li a {
+          background: #FFFFF;
+          padding-top: 5px;
+          color: #2b9780;
+          border: 1px solid #2b9780;
+          margin: 0 5px;
+          border-radius: 2px; }
+        div.holiday_absence div.box_items table tfoot tr td ul:nth-child(2) li.active, div.holiday_absence div.box_items table tfoot tr td ul:nth-child(2) li a:hover {
+          background: #2b9780;
+          color: #FFFFFF;
+          text-decoration: none;
+          cursor: pointer; }
+        div.holiday_absence div.box_items table tfoot tr td ul:last-child li:first-child a {
+          margin-right: 35px;
+          background: #2b9780;
+          padding-top: 9px;
+          border: 1px solid #2b9780; }
+          div.holiday_absence div.box_items table tfoot tr td ul:last-child li:first-child a img {
+            max-width: 12px;
+            max-height: 12px; }
+
+/*# sourceMappingURL=setting_holiday_absence.css.map */

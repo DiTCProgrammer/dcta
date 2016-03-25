@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?vlkb07');
+    src:    url('fonts/icomoon.eot?vlkb07#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?vlkb07') format('truetype'),
+        url('fonts/icomoon.woff?vlkb07') format('woff'),
+        url('fonts/icomoon.svg?vlkb07#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Attend:before {
+    content: "\e900";
+}
+.icon-data:before {
+    content: "\e901";
+}
+.icon-export:before {
+    content: "\e902";
+}
+.icon-face:before {
+    content: "\e903";
+}
+.icon-home:before {
+    content: "\e904";
+}
+.icon-intragram:before {
+    content: "\e905";
+}
+.icon-setting:before {
+    content: "\e906";
+}
+.icon-twiss:before {
+    content: "\e907";
+}
+.icon-youtube:before {
+    content: "\e908";
+}
+

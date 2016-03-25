@@ -1,0 +1,153 @@
+body{
+    font-family: sukhumvit,sans-serif !important;
+    font-size: 14px;
+
+}
+
+div.dcta{
+    width: 100%;
+    min-height: 100vh;
+    height:auto;
+    overflow: hidden;
+    display: block;
+    position: relative;
+
+
+    footer{
+        background: #2a3f54;
+        width: 100%;
+        height:60px;
+        position: absolute;
+        z-index: 1;
+        right:0;
+        bottom:0;
+    }
+    .page_main{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        z-index: 2;
+
+    }
+    section.menu{
+        float: left;
+        width: 20%;
+        min-height: 100vh;
+        height:auto;
+        overflow:hidden;
+        background: #1f354b;
+        position: relative;
+        z-index: 3;
+
+        // left:0;
+        // top:0;
+    }
+
+
+    section.page{
+        float: right;
+        width: 80%;
+        min-height: 100vh;
+        height:auto;
+        position: relative;
+        height: auto;
+        background: #f7f7f7;
+
+
+        header{
+            width:100%;
+            height:auto;
+            overflow:hidden;
+            background: #ededed;
+
+            .box_head{
+                width: 100%;
+                overflow:hidden;
+                text-align: right;
+                padding:6px 10px 10px 10px;
+                overflow: hidden;
+                .sub_box_head{
+                    height:auto;
+                    overflow:hidden;
+                    float:right;
+                    div.letter{
+                        float: left;
+                        margin-right:24px;
+                        margin-top:14px;
+                        a{
+                            color:#2a3f54;
+                            span{
+                                font-size:1.2em;
+                            }
+                        }
+                    }
+
+                    div.user{
+                        float:left;
+                        overflow:hidden;
+                        div.box_img{
+                            float: left;
+                            margin-right:13px;
+                            width: 42px;
+                            height: 42px;
+                            overflow: hidden;
+                            border-radius: 50%;
+                            img{
+                                max-width: 65px;
+                                max-height: 65px;
+                                display: block;
+                                margin: 0 auto;
+                            }
+                        }
+
+                        div.name{
+                            margin-top:14px;
+                            color:#2a3f54;
+                            float: left;
+
+                        }
+                    }
+                }
+            }
+
+            div.head_company{
+                width: 100%;
+                height: auto;
+                padding:15px 0;
+                background: #c0cdda;
+                text-align: center;
+            }
+        }
+
+
+        div.main_page{
+            padding:18px 28px 77px 18px;
+            padding-bottom:60px;
+
+
+
+            div.sub_page{
+                width: 100%;
+                height: auto;
+                background: #FFF;
+                border:1px solid #e4e4e4;
+                margin-bottom:12px;
+
+                div.home{
+                    width: 100%;
+                    padding-top: 100px;
+                    height: auto;
+                    img{
+                        max-width: 100%;
+                        width: auto;
+                        height: auto;
+                        display: block;
+                        margin:0 auto;
+                    }
+                }
+            }
+        }
+    }
+}
+

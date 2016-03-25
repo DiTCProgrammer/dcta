@@ -1,0 +1,78 @@
+div.delete {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 200px; }
+  div.delete h1.title {
+    text-align: center;
+    margin: 0;
+    color: #000;
+    font-size: 2em;
+    padding: 50px 0 20px;
+    position: relative;
+    margin-bottom: 36px; }
+  div.delete h1.title:after {
+    content: '';
+    width: 60%;
+    height: 1px;
+    background: #dcdcdc;
+    position: absolute;
+    bottom: 0;
+    left: 20%; }
+  div.delete h2.sub_title {
+    margin: 0;
+    padding: 0 0 0 90px;
+    color: #000;
+    font-size: 1.5em;
+    margin-bottom: 40px; }
+  div.delete div.filter {
+    width: auto;
+    height: auto;
+    margin: 0 auto 50px;
+    display: table;
+    overflow: hidden; }
+    div.delete div.filter select.select_date {
+      color: #666666;
+      height: 33px;
+      border: 1px solid #e2e2e2;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      padding-right: 36px;
+      padding-left: 20px;
+      margin: 0 16px; }
+    div.delete div.filter select.select_date {
+      width: 157px; }
+  div.delete div.box_delete {
+    margin: 0 auto;
+    width: 835px;
+    height: auto;
+    overflow: hidden;
+    padding: 35px 160px;
+    border: 1px solid #e2e2e2; }
+    div.delete div.box_delete div.item_list {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      border-bottom: 1px solid #e2e2e2;
+      padding: 8px 0; }
+      div.delete div.box_delete div.item_list div.month_name {
+        float: left;
+        padding-top: 8px;
+        width: 450px;
+        height: 34px;
+        color: #666666; }
+      div.delete div.box_delete div.item_list a.remove {
+        text-align: center;
+        width: 63px;
+        height: 34px;
+        border-radius: 1px;
+        background: #ea6c5f;
+        padding: 7px 0;
+        cursor: pointer;
+        display: inline-block; }
+        div.delete div.box_delete div.item_list a.remove span {
+          color: #FFFFFF;
+          font-size: 1.3em; }
+
+/*# sourceMappingURL=delete.css.map */

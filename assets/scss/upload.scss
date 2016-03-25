@@ -1,0 +1,214 @@
+div.upload{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom:200px;
+    h1.title{
+        text-align: center;
+        margin:0;
+        color: #000;
+        font-size:2em;
+        padding:50px 0 20px;
+        position: relative;
+        margin-bottom:36px;
+    }
+
+    h1.title:after{
+        content: '';
+        width: 60%;
+        height: 1px;
+        background: #dcdcdc;
+        position: absolute;
+        bottom:0;
+        left:20%;
+    }
+
+    h2.sub_title{
+        margin:0;
+        padding:0 0 0 90px;
+        color:#000;
+        font-size:1.5em;
+        margin-bottom:100px;
+    }
+
+    div.box_upload{
+        height:auto;
+        border:1px solid #d5d5d6;
+        padding:40px 0 70px;
+        width: 837px;
+        margin:0 auto;
+
+        div.filter{
+            width: auto;
+            height: auto;
+            margin:0 auto 42px;
+            display: table;
+            overflow: hidden;
+
+            select.select_date{
+                color:#666666;
+                height: 33px;
+                border:1px solid #e2e2e2;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                padding-right:36px;
+                padding-left:20px;
+                margin:0 16px;
+            }
+
+            select.select_date:first-child{
+                width: 195px;
+            }
+
+            select.select_date:last-child{
+                width: 157px;
+            }
+
+
+
+        }
+
+        div.box_upload_file{
+            width: auto;
+            height: 47px;
+            overflow: hidden;
+            display: table;
+            margin: 0 auto;
+
+            .row_upload{
+                width: 100%;
+                height: auto;
+                position: relative;
+                overflow: hidden;
+
+                input[type="text"]{
+                    width: 415px;
+                    height: 47px;
+                    border:1px solid #cccccc;
+                    position: relative;
+                    z-index: 2;
+                    padding:10px;
+                }
+
+                input[type="file"]{
+                    opacity: 0;
+                    width: 415px;
+                    height: 39px;
+                    position: absolute;
+                    left:0;
+                    top:4px;
+
+                }
+
+                button{
+                    width: auto;
+                    height: 47px;
+                    background: #2a3f54;
+                    border:none;
+                    border-radius: 2px;
+                    padding: 0 20px;
+                    color:#FFFFFF;
+                }
+
+            }
+
+        }
+
+
+
+
+    }
+
+}
+
+
+.time_popup{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.3);
+    position: fixed;
+    display: table-cell;
+    display: table;
+    top:0;
+    z-index:999999;
+
+
+
+    .time_popup2{
+        width: 100%;
+        height:auto;
+        overflow:hidden;
+        display: table-cell;
+        vertical-align: middle;
+
+        .box_data{
+            width: 671px;
+            height:auto;
+            display: block;
+            margin:0 auto;
+            background: #FFFFFF;
+            padding:79px;
+
+            .text_top{
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+            .text_bottom{
+                text-align: center;
+                margin-top: 30px;
+            }
+
+            .num_progress{
+                width: 475px;
+                position: relative;
+                height:40px;
+                margin-left:19px;
+
+
+                .time_progress{
+                   
+                    text-align: center;
+                    width:48px;
+                    padding:5px 10px;
+                    background:red;
+                    display: inline-block;
+                    border-radius: 4px;
+                    background-color: #2a3f54; //number
+                    color: #FFF;
+                    position: absolute;
+                    margin-left: -24px;
+                    transition: left 0.5s ease-out;
+                    font-size:10px;
+                     display: none;
+                }
+                .time_progress:after{
+                    content: '';
+                    width: 0;
+                    height: 0;
+                    display: block;
+                    border-top:10px solid #2a3f54;
+                    border-left: 5px solid transparent;
+                    border-right: 5px solid transparent;
+                    position: absolute;
+                    bottom:-10px;
+                    left:19px;
+
+                }
+            }
+
+            .progress{
+                width: 475px;
+                margin-left: 19px;
+
+                .progress-bar{
+
+                    background: #2a3f54 linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+                    background-size: 40px 40px;
+                }
+            }
+        }
+
+    }
+}
