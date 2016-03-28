@@ -1,7 +1,7 @@
 <?php
-$user_id = 1;
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+// Start the session
+//session_start();
+$user_id = isset($_SESSION['userid']) ? $_SESSION['userid'] : '';
 include 'includes/setting.php';
 $fn = new Setting();
 $data = $fn->getData($user_id);

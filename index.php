@@ -1,3 +1,8 @@
+<?php
+// Start the session
+session_start();
+$_SESSION['userid'] = '1';
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -27,7 +32,7 @@
         <link href="assets/css/setting_weekend_company.css" rel="stylesheet">
         <link href="assets/css/setting_holiday_menu.css" rel="stylesheet">
         <link href="assets/css/setting_holiday_absence.css" rel="stylesheet">
-        
+
         <script src="assets/elements/jquery/jquery.min.js" type="text/javascript"></script>
 
         <script src="assets/js/menu.js" type="text/javascript"></script>
@@ -71,8 +76,8 @@
                             //include ('./views/delete.php');
                             //include ('./views/time_settings.php');
                             //include ('./views/setting_employee.php');
-                            include ('./views/setting_company_profile.php');
-                            //include ('./views/setting_department.php');
+                            //include ('./views/setting_company_profile.php');
+                            include ('./views/setting_department.php');
                             //include ('./views/setting_weekend.php');
                             //include ('./views/setting_weekend_department.php');
                             //include ('./views/setting_weekend_company.php');
