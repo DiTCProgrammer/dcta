@@ -1,6 +1,8 @@
 <?php
 
 require 'mainfunction.php';
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
 class Setting extends DctaMain {
 
@@ -35,7 +37,7 @@ class Setting extends DctaMain {
     public function UploadImage($data, $id) {
 
         $target_dir = "images/setting/" . $id;
-        if (!is_dir('../'.$target_dir)) {
+        if (!is_dir('../' . $target_dir)) {
             mkdir($target_dir);
         }
 
@@ -59,7 +61,7 @@ class Setting extends DctaMain {
             echo "Sorry, your file was not uploaded.";
             // if everything is ok, try to upload file
         } else {
-            if (move_uploaded_file($data["tmp_name"]['logo'], '../'.$target_file)) {
+            if (move_uploaded_file($data["tmp_name"]['logo'], '../' . $target_file)) {
                 $image_path = $target_file;
             } else {
                 $image_path = '';
@@ -84,10 +86,75 @@ class Setting extends DctaMain {
             /* free result set */
             $result->close();
         }
-        
+
         $conn->close();
-        
+
         return $row;
+    }
+
+    public function getDepartment($start = null, $limit = null) {
+        $conn = $this->connectDB();
+
+        $sql = 'SELECT * FROM `data_department` WHERE `status_day` = 1';
+        if ($start && $limit) {
+            $sql .= 'LIMIT ' . $start . ',' . $limit;
+        }
+
+        if ($result = $conn->query($sql)) {
+
+            /* fetch object array */
+            while ($obj = $result->fetch_object()) {
+                $row[] = $obj;
+            }
+
+            /* free result set */
+            $result->close();
+        }
+
+        $conn->close();
+
+        return $row;
+    }
+
+    public function getIcon($id) {
+        $icon = '';
+        switch ($id) {
+            case '1':
+                $icon = 'assets/images/department/account.png';
+                break;
+            case '2':
+                $icon = 'assets/images/department/money.png';
+                break;
+            case '3':
+                $icon = 'assets/images/department/seminar.png';
+                break;
+            case '4':
+                $icon = 'assets/images/department/manage.png';
+                break;
+            case '5':
+                $icon = 'assets/images/department/press.png';
+                break;
+            case '6':
+                $icon = 'assets/images/department/IT.png';
+                break;
+            case '7':
+                $icon = 'assets/images/department/human.png';
+                break;
+            case '8':
+                $icon = 'assets/images/department/operetor.png';
+                break;
+            case '9':
+                $icon = 'assets/images/department/service.png';
+                break;
+            case '10':
+                $icon = 'assets/images/department/security.png';
+                break;
+            case '11':
+                $icon = 'assets/images/department/cleaning.png';
+                break;
+        }
+        
+        return $icon;
     }
 
 }
